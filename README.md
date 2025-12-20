@@ -1,7 +1,7 @@
 <h1 align="center">Hey 👋 I'm Tajbin Khan Evan</h1>
 <h3 align="center">
 Full-Stack Developer | Backend & Security Focused<br/>
-Node.js • TypeScript • Express • Next.js
+Node.js • TypeScript • Express • Next.js • Nest.js
 </h3>
 
 <p align="center">
