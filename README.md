@@ -78,13 +78,9 @@ and role-based access control.
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tajbinkhan&show_icons=true&locale=en" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tajbinkhan" />
-</p>
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=tajbinkhan&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=tajbinkhan&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=tajbinkhan&layout=compact&theme=radical)
 
 ---
 
