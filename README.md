@@ -1,6 +1,6 @@
 <h1 align="center">Hey 👋 I'm Tajbin Khan Evan</h1>
 <h3 align="center">
-Full-Stack Developer | Rust Desktop Apps & Secure Backends<br/>
+Full-Stack Software Engineer | Rust Desktop Apps & Secure Backends<br/>
 Rust • Tauri • Svelte • TypeScript • NestJS • Next.js
 </h3>
 
