@@ -1,12 +1,12 @@
 <h1 align="center">Hey 👋 I'm Tajbin Khan Evan</h1>
 <h3 align="center">
-Full-Stack Software Engineer | Rust Desktop Apps & Secure Backends<br/>
-Rust • Tauri • Svelte • TypeScript • NestJS • Next.js
+Full-Stack Software Engineer | JavaScript & TypeScript<br/>
+Node.js • NestJS • Express • Next.js • React • PostgreSQL
 </h3>
 
 <p align="center">
-I build <b>desktop apps in Rust</b> and <b>secure, production-ready web applications</b><br/>
-with NestJS backends and Next.js frontends.
+I build <b>secure, production-ready web applications</b> in JavaScript and TypeScript,<br/>
+from NestJS and Express APIs to Next.js and React frontends.
 </p>
 
 <p align="center">
@@ -17,49 +17,27 @@ with NestJS backends and Next.js frontends.
 
 ## What I do
 
-- Build **cross-platform desktop apps** in Rust with Tauri and Svelte, for Windows, macOS and Linux
-- Design **secure authentication systems**: magic links, Google OAuth, sessions, 2FA, RBAC, CSRF
-- Build **REST APIs** with NestJS, TypeScript, PostgreSQL and Drizzle ORM
-- Ship **full-stack apps** with Next.js, React, shadcn/ui and TanStack Query
-- Package and release apps: installers, `.deb`, Snap, signed releases and CI on three platforms
-- Fix, refactor and speed up existing codebases
+- Build **REST APIs** with Node.js, NestJS, Express and TypeScript, on PostgreSQL with Drizzle or Prisma
+- Design **secure authentication systems**: JWT, sessions, magic links, Google OAuth, 2FA, RBAC, CSRF
+- Build **Next.js and React frontends** with Tailwind CSS, shadcn/ui, TanStack Query and React Hook Form
+- Publish **npm packages** and reusable TypeScript libraries
+- Build **desktop apps** with Tauri and Svelte (TypeScript) on a Rust core
+- Fix, refactor and speed up existing JavaScript and TypeScript codebases
 
 ---
 
 ## Featured projects
 
-### [UDM](https://github.com/tajbinkhan/UDM) (Unified Download Manager)
-A free, open-source IDM alternative for Windows, macOS and Linux, written in Rust with a Tauri and Svelte window.
-Splits each file over up to 16 connections, resumes after interruptions, catches downloads from
-Chrome, Edge, Firefox and Safari, and downloads HLS/DASH streams, YouTube videos and torrents.
-Comes with queues, a scheduler, a command-line tool and an MCP server for AI assistants.
-
-🔗 https://tajbinkhan.github.io/UDM/
-
----
-
-### [DevSweep](https://github.com/tajbinkhan/devsweep)
-A Windows app, built with Rust and Tauri, that finds `node_modules`, Rust `target` folders,
-build output and package caches your tools can rebuild, and deletes the ones you pick.
-
----
-
-### [DeepCool Digital Desktop](https://github.com/tajbinkhan/deepcool-digital-desktop)
-A Linux desktop app for the digital displays on DeepCool CPU coolers and cases.
-Rust and Tauri, with live system readings, background mode and start at sign-in.
-A fork of [deepcool-digital-linux](https://github.com/Nortank12/deepcool-digital-linux) by Nortank12.
-
----
-
-### [Audio Sleep Control](https://github.com/tajbinkhan/audio-sleep-control)
-A small GNOME app (Python, GTK 4, libadwaita) that stops PipeWire from putting your speaker
-output to sleep. Ships as a `.deb` and a Snap.
+### Authentication boilerplate ([API](https://github.com/tajbinkhan/authentication-boilerplate-api) · [Dashboard](https://github.com/tajbinkhan/authentication-boilerplate-dashboard))
+A NestJS 11 API and a Next.js 16 admin dashboard with magic-link and Google sign-in, sessions, 2FA,
+role-based access, user management, audit logging and CSRF protection.
+TypeScript, Drizzle ORM, PostgreSQL, Zod, shadcn/ui, TanStack Query.
 
 ---
 
 ### [chat-scroll-behavior](https://github.com/tajbinkhan/chat-scroll-behavior)
 A framework-agnostic npm package for chat scrolling: loads older and newer messages and keeps
-the viewport in place when older messages are prepended.
+the viewport in place when older messages are prepended. Works with vanilla JavaScript, React and Next.js.
 
 ```bash
 npm install chat-scroll-behavior
@@ -67,31 +45,35 @@ npm install chat-scroll-behavior
 
 ---
 
-### Authentication boilerplate ([API](https://github.com/tajbinkhan/authentication-boilerplate-api) · [Dashboard](https://github.com/tajbinkhan/authentication-boilerplate-dashboard))
-A NestJS API and a Next.js 16 admin dashboard with magic-link and Google sign-in, sessions, 2FA,
-role-based access, user management, audit logging and CSRF protection.
+### Lenbow ([API](https://github.com/tajbinkhan/lenbow-api) · [Dashboard](https://github.com/tajbinkhan/lenbow-dashboard))
+Track money you lend and borrow with people you trust. A NestJS and PostgreSQL backend with
+JWT auth, CSRF protection and Google OAuth, and a Next.js dashboard.
 
 ---
 
-### More full-stack work
-- [Lenbow](https://github.com/tajbinkhan/lenbow-api): a lend and borrow tracker ([dashboard](https://github.com/tajbinkhan/lenbow-dashboard))
-- [Task Management System](https://github.com/tajbinkhan/tms-api): JWT and session auth, role-based routes, audit logs ([dashboard](https://github.com/tajbinkhan/tms-dashboard))
-- [Job Portal](https://github.com/tajbinkhan/job-portal): job board on Next.js 16 ([API](https://github.com/tajbinkhan/job-portal-api))
-- [Media Library](https://github.com/tajbinkhan/media-library): media management with Cloudinary ([API](https://github.com/tajbinkhan/media-library-api))
-- [PostgreSQL Database Builder](https://github.com/tajbinkhan/postgresql-database-builder): backup and restore tool in Python and CustomTkinter
+### More JavaScript and TypeScript work
+- [Task Management System](https://github.com/tajbinkhan/tms-api): NestJS API with JWT and session auth, role-based routes and audit logs, plus a Next.js and RTK Query [dashboard](https://github.com/tajbinkhan/tms-dashboard)
+- [Job Portal](https://github.com/tajbinkhan/job-portal): job board on Next.js 16 and Tailwind CSS v4, with a NestJS and Drizzle [API](https://github.com/tajbinkhan/job-portal-api)
+- [Media Library](https://github.com/tajbinkhan/media-library): media management on Next.js 16, with a NestJS and Cloudinary [API](https://github.com/tajbinkhan/media-library-api)
 - [Express Authentication Boilerplate](https://github.com/tajbinkhan/express-authentication-boilerplate): Express and TypeScript with JWT, sessions, Google OAuth and CSRF
+
+---
+
+### Desktop apps
+- [UDM](https://github.com/tajbinkhan/UDM): a free, open-source IDM alternative for Windows, macOS and Linux. Svelte and TypeScript window on Tauri, Rust download engine, and browser extensions in JavaScript. [Website](https://tajbinkhan.github.io/UDM/)
+- [DevSweep](https://github.com/tajbinkhan/devsweep): finds `node_modules`, build output and package caches your tools can rebuild, and deletes the ones you pick. Tauri.
+- [DeepCool Digital Desktop](https://github.com/tajbinkhan/deepcool-digital-desktop): a Linux app for the displays on DeepCool coolers and cases. Tauri and Svelte. A fork of [deepcool-digital-linux](https://github.com/Nortank12/deepcool-digital-linux) by Nortank12.
 
 ---
 
 ## Tech stack
 
-### Desktop
-- Rust, Tauri 2, Svelte 5
-- Python, GTK 4, libadwaita
-- Browser extensions (Chrome, Firefox, Safari)
+### Languages
+- JavaScript, TypeScript
+- Rust, Python
 
 ### Backend
-- Node.js, TypeScript, NestJS, Express.js
+- Node.js, NestJS, Express.js
 - REST APIs, JWT, OAuth, RBAC
 - Drizzle ORM, Prisma ORM
 - PostgreSQL, MongoDB
@@ -99,12 +81,16 @@ role-based access, user management, audit logging and CSRF protection.
 ### Frontend
 - Next.js, React.js, Svelte
 - Tailwind CSS, shadcn/ui
-- TanStack Query, React Hook Form
+- TanStack Query, RTK Query, React Hook Form
 
 ### Security
 - Zod validation
 - CSRF / XSS protection
 - Rate limiting, Helmet, CORS
+
+### Desktop
+- Tauri 2, Svelte 5
+- Browser extensions (Chrome, Firefox, Safari)
 
 ### Cloud & tools
 - Firebase, Cloudinary, Vercel
